@@ -1,4 +1,4 @@
-export async function onRequest(context) {
-  console.log("onRequest send");
-  return new Response("sent!!");
+export async function onRequestPost(context) {
+  // TODO: Handle the form submission
+  return new Response("abc");
 }

@@ -1,3 +1,4 @@
 export function onRequest(context) {
-  return new Response("Hello, world!")
+  console.log("onRequest send");
+  return new Response("Hello, world!");
 }

@@ -4,4 +4,5 @@ export async function onRequest(context) {
     return new Response("sent!!");
   }catch(err){
     return new Response("error", {status:400});
+  }
 }

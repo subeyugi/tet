@@ -53,6 +53,7 @@
       <button type="button" onclick="submitPressed()">Submit</button>
     </form>
     <script>
+      console.log(location.href);
       function submitPressed(){
         const formData = new FormData(document.getElementById("form"));
         const action = form.getAttribute("action");

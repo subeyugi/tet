@@ -54,7 +54,7 @@
     </form>
     <script>
       function submitPressed(){
-        const formData = new FormData(form);
+        const formData = new FormData(document.getElementById("form"));
         const action = form.getAttribute("action");
         const options = {
           method: "POST",
